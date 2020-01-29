@@ -1,0 +1,141 @@
+body {
+  background: #fff;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  color: #6d6d6d;
+  font-size: 18px;
+}
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  max-width: 1225px !important;
+  min-width: 1225px !important;
+}
+
+.top {
+  background: url(https://i.imgur.com/jJ8ItyS.png) center no-repeat;
+  height: 613px;
+
+  h1 {
+    color: #fff;
+    font-size: 62px;
+    font-weight: 800;
+    padding-top: 232px;
+  }
+
+  .btn-light {
+    width: 250px;
+    height: 50px;
+    border-radius: 0;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 63px;
+  }
+}
+
+.bot {
+  background: #f4f4f4;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 52px;
+}
+
+.categorie {
+  height: 347px;
+  background-position: center;
+  color: #fff;
+  padding-left: 31px;
+  padding-right: 31px;
+  h3 {
+    font-weight: 800;
+    font-size: 52px;
+  }
+  .pc-1 {
+    padding-top: 120px;
+  }
+}
+
+.graph {
+  color: #fff;
+  margin-top: -87px;
+  .g-col {
+    background: #0088ed;
+    font-weight: 100;
+    .g-title {
+      background: #005499;
+      padding: 20px;
+      font-size: 19px;
+      h4 {
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: 2px;
+      }
+    }
+    .g-body {
+      padding: 20px;
+      font-size: 12px;
+      min-height: 94px;
+    }
+    .g-text {
+      bottom: 20px;
+      position: absolute;
+    }
+  }
+}
+
+.fw {
+  background: #f4f4f4;
+  .top {
+    height: 613px;
+    box-shadow: 0 0 25px 25px #0068a7 inset;
+    width: 1370px;
+    background-position-y: -117px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    color: #404243;
+    border-left: solid 7px #eaeaea;
+    padding-left: 15px;
+    text-transform: lowercase;
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+  .z-thumb {
+    cursor: pointer;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+    z-index: 999;
+    &:hover {
+      -ms-transform: scale(1.11);
+      -moz-transform: scale(1.11);
+      -webkit-transform: scale(1.11);
+      -o-transform: scale(1.11);
+      transform: scale(1.11);
+    }
+  }
+  .bot {
+    background: transparent;
+  }
+
+  .graph {
+    .g-col {
+      cursor: pointer;
+      &:hover {
+        background: #047ad2;
+        .g-title {
+          background: #024479;
+        }
+      }
+    }
+  }
+}
